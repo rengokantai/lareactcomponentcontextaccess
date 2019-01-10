@@ -27,3 +27,11 @@ const nav = ()=>
 <>
 </>
 ```
+### 2 Using keyed fragments
+```
+{props.xx.dict.map(term=>(
+
+<React.fragment key={}>
+<>
+)
+```
