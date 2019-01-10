@@ -13,3 +13,17 @@ list
 ```
 React.Chilren.only(children)
 ```
+
+## 3.Enhanced Components
+### 1 Working with fragments
+```
+const nav = ()=>
+<React.Fragment>
+</React.Fragment>
+```
+same
+```
+const nav = ()=>
+<>
+</>
+```
