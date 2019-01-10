@@ -6,3 +6,10 @@ list
 - Returns arrays of elements
 - Better error handling
 - Small file size
+
+## 2.Advanced Components
+### 1 Compound components
+
+```
+React.Chilren.only(children)
+```
