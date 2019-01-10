@@ -42,3 +42,20 @@ We also have the UpdatingLifeCycle. This includes the following: now getDerivedS
 Here we can't read the dom but we can capture a value for use later and then finally componentDidUpdate is invoked right after the update, so this can be used to operate on the dom once that update has occurred. Now the UnmountingLifeCycle only has one method on it and that is componentWillUnmount. This is invoked right before the component is unmounted and it's a great time to do some cleanup. You can cancel at request of the network, reset timers and all those types of clean up tasks.
 So the react component life cycle has really undergone some change over time. We have new methods to make use of and all of these have to do with changes to Reacts handling of asynchronous information.
 
+## 4. React Patterns
+### 1 Understanding the context API
+Context is how we pass data down to child components without having to pass it all the way down the tree.
+
+### 2 Using context
+
+
+## 5. React Accessiblity
+### 5 Accessibllity testing
+axe-core
+
+
+## 6. Conclusion
+### 1 Next
+tools:
+- styled-components
+
